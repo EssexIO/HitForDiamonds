@@ -18,7 +18,7 @@ public class HitForDiamond
     {
       Player h = (Player)e.getDamager();
       double d = Math.random();
-      if (d < 0.7D) {
+      if (d < 0.2D) {
         h.getInventory().addItem(new ItemStack(Material.DIAMOND, 1,(short) 1));
       } else {}
     }
